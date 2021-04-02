@@ -91,6 +91,47 @@ export class ServiceService {
         phone: '0493568452',
       },
     },
+    {
+      id: 7,
+      name: 'Coopérative fermière',
+      description:
+        'La coopérative fermière de la Gaume s’engage depuis plusieurs années à promouvoir une agriculture locale de qualité en valorisant les circuits courts avec nos éleveurs et producteurs locaux. En développant une activité économique équitable pour le secteur agricole gaumais. En proposant des produits de qualité respectant les normes environnementales.',
+      image: '../../assets/images/proxi/ferme.svg',
+      owner: {
+        id: 1,
+        firstname: 'Jean',
+        lastname: 'Dupond',
+        email: 'JeanDupond@gmail.com',
+        phone: '0485624851',
+      },
+    },
+    {
+      id: 8,
+      name: 'Bibliothèque de Rossignol',
+      description: 'Au premier étage du CCRT',
+      image: '../../assets/images/proxi/biblio.svg',
+      owner: {
+        id: 1,
+        firstname: 'Nicolas',
+        lastname: 'Lempereur',
+        email: 'nico95@yahoo.com',
+        phone: '0493468532',
+      },
+    },
+    {
+      id: 9,
+      name: 'Ludothèque de Tintigny',
+      description:
+        'Possibilité de louer des centaines de jeux et jouets à un prix modique. Conseiller enfants et adultes dans le choix des jeux. Favoriser le jeu et lui rendre son importance. Stimuler les échanges et les rencontres autour du jeu.',
+      image: '../../assets/images/proxi/3709576.svg',
+      owner: {
+        id: 1,
+        firstname: 'Cécile',
+        lastname: 'Du moulin',
+        email: 'cecile.dumoulin@hotmail.fr',
+        phone: '0485469530',
+      },
+    },
   ];
 
   constructor() {}
