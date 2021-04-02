@@ -14,40 +14,31 @@
   </div>
 </div>
 
-<div class="container">
-  <br />
-  <br />
-  <h1 class="thin">Tiers-Lieux</h1>
-  <br />
-  <p class="text-muted" style="text-align: justify">
-    Les tiers-lieux, appelés aussi espaces de travail partagés et collaboratifs
-    désignent des lieux de travail où la créativité peut naître entre différents
-    acteurs, où la flexibilité répond aux difficultés économiques du champ
-    entrepreneurial. Ils permettent aux actifs de travailler à distance, à
-    proximité de leur domicile et dans le même confort, dans des lieux aussi
-    bien équipés et aménagés que l’entreprise. Ils permettent aussi aux
-    personnes de trouver une solution alternative au fonctionnement
-    traditionnel, de croiser des mondes qui ne se seraient pas rencontrés par
-    ailleurs, de favoriser des échanges grâce aux animations et évènements mis
-    en place.
-  </p>
-  <br />
-  <br />
+<div class="container" style="margin-bottom: 35px">
+  <div class="row">
+    <h1>Tiers-Lieux</h1>
+  </div>
+  <section style="padding: 0 25px">
+    <p class="text-muted" style="text-align: justify">
+      Les tiers-lieux, appelés aussi espaces de travail partagés et
+      collaboratifs désignent des lieux de travail où la créativité peut naître
+      entre différents acteurs, où la flexibilité répond aux difficultés
+      économiques du champ entrepreneurial. Ils permettent aux actifs de
+      travailler à distance, à proximité de leur domicile et dans le même
+      confort, dans des lieux aussi bien équipés et aménagés que l’entreprise.
+      Ils permettent aussi aux personnes de trouver une solution alternative au
+      fonctionnement traditionnel, de croiser des mondes qui ne se seraient pas
+      rencontrés par ailleurs, de favoriser des échanges grâce aux animations et
+      évènements mis en place.
+    </p>
+  </section>
 </div>
 
-<div
-  style="
-    padding: 20px;
-    margin: 20px 0;
-    background-color: rgb(126, 192, 137);
-    color: white;
-  "
->
+<div style="margin: 20px 0; background-color: rgb(126, 192, 137); color: white">
   <div class="container">
     <div class="row" style="margin-top: 10px">
       <h1>Services</h1>
     </div>
-    <br />
     <div class="row mt-5 justify-content-center">
       <div *ngFor="let service of services">
         <app-service [service]="service"></app-service>
