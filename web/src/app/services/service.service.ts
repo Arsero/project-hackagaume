@@ -11,7 +11,7 @@ export class ServiceService {
       id: 1,
       name: 'Formations',
       description:
-        "Des ateliers collectifs autour des usages de l'ordinateur et des nouvelles technologie. Mais également un accompagnement socio-professionnel gratuit dont l’objectif est de permettre l’acquisition des compétences numériques aujourd’hui indispensables aux démarches de la vie quotidienne ainsi qu’à l’exercice d’une activité professionnelle.",
+        "Des ateliers collectifs autour des usages de l'ordinateur et des nouvelles technologies. Mais également un accompagnement socio-professionnel gratuit dont l’objectif est de permettre l’acquisition des compétences numériques aujourd’hui indispensables aux démarches de la vie quotidienne ainsi qu’à l’exercice d’une activité professionnelle.",
       image: '../../assets/images/proxi/formation1.svg',
       owner: {
         id: 1,
