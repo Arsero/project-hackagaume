@@ -1,12 +1,12 @@
-<div class="card" style="width: 18rem; margin: 20px; border: 0">
+<div style="width: 16rem; margin: 20px; text-align: center">
   <img class="card-img-top" src="{{ service.image }}" alt="Card image cap" />
   <div class="card-body">
     <h5 class="card-title">{{ service.name }}</h5>
-    <p class="card-text">
-      {{ service.description }}
-    </p>
-    <div style="text-align: center">
-      <a href="#" class="btn btn-outline-primary" style="width: 12rem"
+    <div>
+      <a
+        routerLink="/service/{{ service.id }}"
+        class="btn btn-outline-primary"
+        style="width: 8rem; font-size: small; margin-top: 10px"
         >Détail</a
       >
     </div>

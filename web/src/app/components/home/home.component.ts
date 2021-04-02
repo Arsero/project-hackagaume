@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Service } from 'src/app/service.model';
+import { ServiceService } from 'src/app/services/service.service';
 
 @Component({
   selector: 'app-home',
@@ -8,87 +9,8 @@ import { Service } from 'src/app/service.model';
 })
 export class HomeComponent implements OnInit {
   services: Service[] = [];
-  constructor() {
-    this.services = [
-      {
-        id: 1,
-        name: 'Titre service',
-        description: 'Description service bla bla bla bla bla bla bla',
-        image: '',
-        owner: {
-          id: 1,
-          firstname: 'Jean',
-          lastname: 'Dupond',
-          email: 'JeanDupond@gmail.com',
-          phone: '0485624851',
-        },
-      },
-      {
-        id: 1,
-        name: 'Titre service',
-        description: 'Description service',
-        image: '',
-        owner: {
-          id: 1,
-          firstname: 'Jean',
-          lastname: 'Dupond',
-          email: 'JeanDupond@gmail.com',
-          phone: '0485624851',
-        },
-      },
-      {
-        id: 1,
-        name: 'Titre service',
-        description: 'Description service',
-        image: '',
-        owner: {
-          id: 1,
-          firstname: 'Jean',
-          lastname: 'Dupond',
-          email: 'JeanDupond@gmail.com',
-          phone: '0485624851',
-        },
-      },
-      {
-        id: 1,
-        name: 'Titre service',
-        description: 'Description service',
-        image: '',
-        owner: {
-          id: 1,
-          firstname: 'Jean',
-          lastname: 'Dupond',
-          email: 'JeanDupond@gmail.com',
-          phone: '0485624851',
-        },
-      },
-      {
-        id: 1,
-        name: 'Titre service',
-        description: 'Description service',
-        image: '',
-        owner: {
-          id: 1,
-          firstname: 'Jean',
-          lastname: 'Dupond',
-          email: 'JeanDupond@gmail.com',
-          phone: '0485624851',
-        },
-      },
-      {
-        id: 1,
-        name: 'Titre service',
-        description: 'Description service',
-        image: '',
-        owner: {
-          id: 1,
-          firstname: 'Jean',
-          lastname: 'Dupond',
-          email: 'JeanDupond@gmail.com',
-          phone: '0485624851',
-        },
-      },
-    ];
+  constructor(private serviceService: ServiceService) {
+    this.services = this.serviceService.getAllServices();
   }
 
   ngOnInit(): void {}

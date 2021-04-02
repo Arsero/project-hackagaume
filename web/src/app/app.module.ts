@@ -1,5 +1,8 @@
+import { ServiceService } from 'src/app/services/service.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,13 +15,10 @@ import { ServiceDetailComponent } from './components/service-detail/service-deta
     AppComponent,
     HomeComponent,
     ServiceComponent,
-    ServiceDetailComponent
+    ServiceDetailComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
+  providers: [ServiceService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

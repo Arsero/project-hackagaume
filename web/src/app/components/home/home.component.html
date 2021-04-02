@@ -54,7 +54,7 @@
   <br />
   <h1 class="thin">Tiers-Lieux</h1>
   <br />
-  <p class="text-muted" style="text-align: left">
+  <p class="text-muted" style="text-align: justify">
     Les tiers-lieux, appelés aussi espaces de travail partagés et collaboratifs
     désignent des lieux de travail où la créativité peut naître entre différents
     acteurs, où la flexibilité répond aux difficultés économiques du champ
@@ -70,14 +70,18 @@
   <br />
 </div>
 
-<div class="container">
-  <div class="row">
-    <h1>Services</h1>
-  </div>
-  <br />
-  <div class="row mt-5 justify-content-center">
-    <div *ngFor="let service of services">
-      <app-service [service]="service"></app-service>
+<div
+  style="padding: 20px; margin: 20px 0; background-color: rgb(243, 246, 250)"
+>
+  <div class="container">
+    <div class="row">
+      <h1>Services</h1>
+    </div>
+    <br />
+    <div class="row mt-5 justify-content-center">
+      <div *ngFor="let service of services">
+        <app-service [service]="service"></app-service>
+      </div>
     </div>
   </div>
 </div>
@@ -86,57 +90,93 @@
   <div class="row">
     <h1>Clients</h1>
   </div>
-  <div class="row">
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" />
+  <section id="clients" class="clients">
+    <div class="row mt-5 justify-content-center">
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-1.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-2.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-3.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-4.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-5.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-6.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-7.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-7.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <div class="client-logo">
-        <img src="assets/img/clients/client-8.png" class="img-fluid" alt="" />
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="client-logo">
+          <img
+            src="../../../assets/clients/client-8.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 
-<footer class="border-top footer text-muted">
-  <div class="container">&copy; 2021 - HackaGaume</div>
-</footer>
+<div>
+  <footer class="border-top footer text-muted">
+    <div class="container">&copy; 2021 - HackaGaume</div>
+  </footer>
+</div>
