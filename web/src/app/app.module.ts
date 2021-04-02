@@ -11,6 +11,7 @@ import { ServiceComponent } from './components/service/service.component';
 import { ServiceDetailComponent } from './components/service-detail/service-detail.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { AnnonceComponent } from './components/annonce/annonce.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     ServiceDetailComponent,
     NavbarComponent,
     FooterComponent,
+    AnnonceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [ServiceService],
