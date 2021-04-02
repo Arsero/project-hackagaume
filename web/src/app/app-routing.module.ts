@@ -1,3 +1,4 @@
+import { AdminComponent } from './components/admin/admin.component';
 import { AnnonceComponent } from './components/annonce/annonce.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServiceDetailComponent } from './components/service-detail/service-detail.component';
@@ -6,6 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'admin', component: AdminComponent },
   { path: 'annonces', component: AnnonceComponent },
   { path: 'service/:id', component: ServiceDetailComponent },
 ];

@@ -12,6 +12,7 @@ import { ServiceDetailComponent } from './components/service-detail/service-deta
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { AnnonceComponent } from './components/annonce/annonce.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AnnonceComponent } from './components/annonce/annonce.component';
     NavbarComponent,
     FooterComponent,
     AnnonceComponent,
+    AdminComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [ServiceService],
