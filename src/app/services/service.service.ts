@@ -40,7 +40,7 @@ export class ServiceService {
       name: 'Titre service',
       description:
         "Besoin d'aide pour votre ménage, votre repassage, vos courses ou le transport de personnes à mobilité réduite ? Grâce aux titres-services, bénéficiez de tarifs avantageux et d'un système pratique et efficace. Nous proposons des services comme le repassage dans notre Tiers-Lieux et bien plus encore !",
-      image: '../../assets/images/proxi/formation1.svg',
+      image: '../../assets/images/proxi/titresServices.svg',
       owner: {
         id: 1,
         firstname: 'Cécile',
