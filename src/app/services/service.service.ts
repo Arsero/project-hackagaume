@@ -107,7 +107,7 @@ export class ServiceService {
     },
     {
       id: 8,
-      name: 'Bibliothèque de Rossignol',
+      name: 'Bibliothèque',
       description: 'Au premier étage du CCRT',
       image: '../../assets/images/proxi/biblio.svg',
       owner: {
