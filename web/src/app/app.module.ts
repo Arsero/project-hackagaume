@@ -13,6 +13,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { AnnonceComponent } from './components/annonce/annonce.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { AddServiceComponent } from './components/add-service/add-service.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { AdminComponent } from './components/admin/admin.component';
     FooterComponent,
     AnnonceComponent,
     AdminComponent,
+    AddServiceComponent,
+    SignupComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [ServiceService],
